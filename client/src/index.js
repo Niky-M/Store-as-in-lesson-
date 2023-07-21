@@ -15,15 +15,5 @@ root.render(
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </Context.Provider>
+  </Context.Provider>,
 );
-
-// ReactDOM.render(
-//   <Context.Provider value={{
-//       user: new UserStore(),
-//       device: new DeviceStore(),
-//   }}>
-//       <App />
-//   </Context.Provider>,
-// document.getElementById('root')
-// );
